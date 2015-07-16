@@ -369,9 +369,12 @@ a:hover {
 }
 .sidebar .logo {
   display: block;
-  width: 100%;
+  width: 200px;
   max-width: 250px;
   height: auto;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
   background-size: contain;
   margin: 0 auto 20px auto;
   background: no-repeat;
