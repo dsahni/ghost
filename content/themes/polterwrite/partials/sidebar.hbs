@@ -1,0 +1,28 @@
+<div class="sidebar" role="aside" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+		<header class="header">
+			<a href="/">
+				<img id="blog" class="logo" src="{{@blog.logo}}">
+			</a>
+			<h1 class="title"><a href="/">{{@blog.title}}</a></h1>
+
+			<p class="description">{{{@blog.description}}}</p>
+
+			<div class="social-icons">
+				<a href="https://github.com/dsahni" class="icon icon-github"></a>
+				<a href="https://soundcloud.com/sahni" class="icon icon-soundcloud"></a>
+				<a href="https://linkedin.com/in/dhruvsahni" class="icon icon-linkedin"></a>
+				<a href="https://twitter.com/dhruvs" class="icon icon-twitter"></a>
+				<a href="/rss" class="icon-rss"></a>
+			</div>
+		    <div class="separator"></div>
+		    </p><ul>
+<li>About</li>
+<li>Travel Map</li>
+</ul>
+</p>
+
+
+		    <p>Tags: <br/>
+		{{navigation}} </p>
+		</header>
+	</div>
